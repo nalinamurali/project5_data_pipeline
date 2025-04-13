@@ -1,18 +1,16 @@
 **Welcome to the Data Pipelines with Airflow project!**
 
-This endeavor will provide you with a solid understanding of Apache Airflow's core concepts. Your task involves creating custom operators to execute essential functions like staging data, populating a data warehouse, and validating data through the pipeline.
-
-To begin, we've equipped you with a project template that streamlines imports and includes four unimplemented operators. These operators need your attention to turn them into functional components of a data pipeline. The template also outlines tasks that must be interconnected for a coherent and logical data flow.
-
-A helper class containing all necessary SQL transformations is at your disposal. While you won't have to write the ETL processes, your responsibility lies in executing them using your custom operators.
+Project template was already provided so , as a Data engineer I have made necessary changes to schedule the DAG every hour and retry 3 times.
 
 **Redshift Serverless creation**
+
 Created Redshift serverless workgroup and related IAM user and role using AWS UI
 
 <img width="1280" alt="redshift" src="https://github.com/user-attachments/assets/282a5ac4-9901-45b5-964b-71e40b1aa840" />
 
 
 **Initiating the Airflow Web Server**
+
 Started airflow services using start-services.sh and start.sh
 Created admin user and started scheduler
 Created awsuser and redshift connection
