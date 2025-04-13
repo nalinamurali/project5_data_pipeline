@@ -29,5 +29,6 @@ Updated code for data quality check.
 DAG was executed successfully and loaded all data and quality check was also done.
 
 I have used only the following data for faster execution
-log_data/2018/11
-song_data/A/A
+
+* log_data/2018/11
+* song_data/A/A
