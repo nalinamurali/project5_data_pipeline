@@ -13,7 +13,7 @@ Created Redshift serverless workgroup and related IAM user and role using AWS UI
 
 Started airflow services using start-services.sh and start.sh
 Created admin user and started scheduler
-Created awsuser and redshift connection
+Created awsuser and redshift connection using Airflow UI.
 
 <img width="1280" alt="user_conn" src="https://github.com/user-attachments/assets/015de6b9-03f2-498b-b50b-56c816012938" />
 <img width="1280" alt="redshift_conn" src="https://github.com/user-attachments/assets/39967928-d7ce-41c2-8965-fa9a5c6c9e14" />
